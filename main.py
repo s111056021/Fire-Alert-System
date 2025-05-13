@@ -28,7 +28,7 @@ FIRE_ALERT_COUNT_THRESHOLD = 3  # 至少 N 筆資料超標才判定為火災
 taiwan_tz = pytz.timezone('Asia/Taipei') # 台灣時區（UTC+8）
 
 # === 測試模式設定 ===
-TEST_MODE = True  # 若為 False，則使用現在時間
+TEST_MODE = False  # 若為 False，則使用現在時間
 TEST_TIME = '2025-05-11 01:30:00'  # 測試時間（格式：YYYY-MM-DD HH:MM:SS）
 UNIX_TIME = 1747057201 # 測試時間 unix 格式
 # d1_normal:1746919281, d2_normal:1747059327, d1_alart:1747057201
